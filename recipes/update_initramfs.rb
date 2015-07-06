@@ -1,4 +1,4 @@
 
-execute "update initramfs" do
+execute "update_initramfs" do
   command "sudo update-initramfs -u"
 end
